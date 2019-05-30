@@ -1,0 +1,7 @@
+/* PUT FLUID GRID CODE HERE */
+
+.grid > aside {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+}
