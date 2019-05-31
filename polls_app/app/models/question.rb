@@ -4,7 +4,6 @@
 #
 #  id      :bigint           not null, primary key
 #  body    :text             not null
-#  user_id :integer          not null
 #  poll_id :integer          not null
 #
 

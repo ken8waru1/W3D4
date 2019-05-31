@@ -1,4 +1,13 @@
-class AnswerChoices < ApplicationRecord
+# == Schema Information
+#
+# Table name: answer_choices
+#
+#  id          :bigint           not null, primary key
+#  choice      :string           not null
+#  question_id :integer          not null
+#
+
+class AnswerChoice < ApplicationRecord
 
   validates :choice, :question_id, presence: true
 
